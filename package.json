@@ -1,0 +1,33 @@
+{
+  "name": "foldable",
+  "version": "0.0.1",
+  "description": "Fold iterable data",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && nyc --reporter=lcov tape test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abstract-tools/foldable.git"
+  },
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "keywords": [
+    "foldable",
+    "fold",
+    "reduce",
+    "reducing"
+  ],
+  "author": "Brandon Chartier",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/abstract-tools/foldable/issues"
+  },
+  "homepage": "https://github.com/abstract-tools/foldable#readme",
+  "devDependencies": {
+    "nyc": "14.1.1",
+    "standard": "14.3.0",
+    "tape": "4.11.0"
+  }
+}
